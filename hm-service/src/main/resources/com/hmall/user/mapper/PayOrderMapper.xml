@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE com.hmall.user.mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-com.hmall.user.mapper.dtd">
+<com.hmall.user.mapper namespace="com.hmall.com.hmall.user.mapper.PayOrderMapper">
+
+</com.hmall.user.mapper>
