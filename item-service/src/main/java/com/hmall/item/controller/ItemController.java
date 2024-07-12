@@ -16,10 +16,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Api(tags = "商品管理相关接口")
+
 @RestController
 @RequestMapping("/items")
 @RequiredArgsConstructor
+@Api(tags = "商品管理相关接口")
 public class ItemController {
 
     private final IItemService itemService;

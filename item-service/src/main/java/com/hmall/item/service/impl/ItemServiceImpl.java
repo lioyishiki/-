@@ -33,7 +33,7 @@ public class ItemServiceImpl extends ServiceImpl<ItemMapper, Item> implements II
             throw new BizIllegalException("更新库存异常，可能是库存不足!", e);
         }
         if (!r) {
-            throw new BizIllegalException("库存不足！");
+            throw new BizIllegalException("库存不足!");
         }
     }
 

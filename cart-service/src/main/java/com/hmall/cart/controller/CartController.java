@@ -15,10 +15,11 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-@Api(tags = "购物车相关接口")
+
 @RestController
 @RequestMapping("/carts")
 @RequiredArgsConstructor
+@Api(tags = "购物车相关接口")
 public class CartController {
     private final ICartService cartService;
 
